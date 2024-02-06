@@ -1,0 +1,125 @@
+:root {
+    --dark-blue-100: #609ED4;
+    --dark-blue-200: #356EA9;
+    --dark-blue-300: #0A3871;
+    --dark-blue-400: #072B61;
+    --dark-blue-500: #052051;
+
+    --light-blue-100: #F3F5FC;
+    --light-blue-200: #EFF1FA;
+    --light-blue-300: #E9ECF8;
+    --light-blue-400: #AAB2D5;
+    --light-blue-500: #757FB2;
+
+    --gray-100: #CED4DA;
+    --gray-100: #ADB5BD;
+    --gray-100: #868E96;
+    --gray-100: #495057;
+    --gray-100: #343A40;
+}
+
+/* Estilos en general */
+body {
+    background-color: var(--light-blue-100);
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+}
+
+/* Estilos  del logo */
+.logo {
+    width: 120px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* Estilos de text area */
+.ingresa-texto {
+    resize: none;
+    max-width: 40%;
+    width: 400px;
+    height: 100%;
+    outline: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0px;
+    border: solid 1px #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ingresa-texto::placeholder {
+    font-size: 20px;
+    color: var(--dark-blue-100);
+}
+
+/* Contenedores main */
+.container-section-uno {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 70%;
+}
+
+.contenedor-principal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-section-dos {
+    flex: 30%;
+}
+
+/* Contenedores de la seccion dos */
+.container-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-image>img {
+    max-width: 366px;
+    width: 100vw;
+    height: auto;
+}
+
+/* Estilos de los botones */
+
+.contenedor-botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.boton-footer {
+    min-width: 250px;
+    padding: 15px 60px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--dark-blue-100);
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos seccion dos */
+.texto-principal {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.texto-segundario {
+    font-size: 15px;
+    opacity: .7;
+}

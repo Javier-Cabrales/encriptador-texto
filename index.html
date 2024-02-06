@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.svg" type="image/x-icon">
+    <!--Estilos CSS y normalice: formateo y limpiesa de estilos dependiendo del navegador-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador</title>
+</head>
+
+<body>
+    <!--Encriptador - 1 Desktop-->
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo">
+    </header>
+    <!--texto a encriptador-->
+    <main class="contenedor-principal">
+        <section class="container-section-uno">
+            <textarea class="ingresa-texto" placeholder="Ingresa un texto"></textarea>
+            <div class="contenedor-botones">
+                <button class="boton-footer">Encriptar</button>
+                <button id="desencriptar" class="boton-footer">Desencriptar</button>
+            </div>
+        </section>
+        <section class="container-section-dos">
+            <div class="container-image">
+                <img src="img/Muñeco.svg" alt="">
+                <div>
+                    <p class="texto-principal">Ningún mensaje fue encontrado</p>
+                    <p class="texto-segundario">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Escrips -->
+    <script src="scrip.js"></script>
+</body>
+
+</html>
